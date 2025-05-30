@@ -11,7 +11,11 @@ namespace Business.Abstarct
     {
 
         List<Product> GetAll();
-      
+
+        List<Product> GetAllByCategoryId(int id);
+
+        List<Product> GetAllByCategoryId(decimal min, decimal max);
+
 
 
     }
